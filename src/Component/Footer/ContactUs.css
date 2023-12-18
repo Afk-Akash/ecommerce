@@ -1,0 +1,16 @@
+.main-container{
+    margin: 100px 200px;
+    border: .5px solid rgb(235, 74, 74);
+    /* border-radius: 15px; */
+    background: rgb(248, 245, 238);
+}
+
+.main-container p{
+    text-align: justify;
+    margin: 10px;
+}
+
+.main-container h3{
+    text-align: justify;
+    margin: 10px;
+}

@@ -1,0 +1,16 @@
+.similar-product-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* flex-direction: row; */
+    margin: 50px 100px;
+}
+
+.similar-product h2{
+    /* display: flex; */
+    font-weight: 500;
+    margin:19px 90px;
+}
+
+/* .similar-product div{
+    
+} */

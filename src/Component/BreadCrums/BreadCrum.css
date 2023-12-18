@@ -1,0 +1,17 @@
+.bread-crum {
+    display: flex;
+    margin-left: 70px;
+    padding: 10px;
+    gap: 4px;
+}
+.bread-crum p {
+    display: inline; /* or inline-block */
+    white-space: nowrap;
+}
+
+
+.bread-crum p:hover{
+    font-weight: 500;
+    scale: none;
+    cursor: pointer;
+}

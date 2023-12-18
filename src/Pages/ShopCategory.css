@@ -1,0 +1,28 @@
+
+.shop-banner{
+    display: block;
+    margin: 30px auto;
+}
+
+
+
+.shop-category-item{
+    display: grid;
+    margin: 50px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+}
+
+.shop-category-load{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    width: 13px;
+    height: 40px;
+    border-radius: 70px;
+    width: 100px;
+    background: rgb(249, 249, 200);
+    font-size: 15px;
+    font-weight: 700;
+}

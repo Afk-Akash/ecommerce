@@ -1,0 +1,133 @@
+.product-display{
+    display: flex;
+    margin: 0px 170px;
+}
+
+.product-display-left{
+    display: flex;
+    gap: 17px;
+}
+
+.product-display-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.product-display-img-list img{
+    height: 120px; 
+    width: 100px;
+}
+
+.product-display-img-main{
+    width: 470px;
+    height: 510px;
+}
+
+.product-display-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+}
+
+.product-display-right h1{
+    display: flex;
+    color: rgb(65, 63, 62);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product-display-right-star{
+    display: flex;
+    /* margin-left: 10px; */
+    margin-top: -25px;
+    gap: 10px;
+    align-items: center;
+}
+
+.product-display-right-star p{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid green;
+    background: rgb(0, 142, 19);
+    color: white;
+    padding: 5px;
+    height: 20%;
+}
+
+.product-display-right-star h5{
+    color: rgb(142, 142, 144);
+}
+
+.product-display-prices{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -10px;
+}
+
+.product-display-oldprice{
+    text-decoration: line-through;
+    color: rgb(149, 150, 149);
+}
+
+.product-display-discount{
+    color: rgb(2, 133, 39);
+    font-weight: bold;
+}
+
+.product-display-newprice{
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.productdisplay-right-size{
+    display: inline-block;
+}
+
+.productdisplay-right-size h1{
+    color: black;
+    font-size: 15px;
+}
+
+.productdisplay-right-sizes{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.productdisplay-right-sizes div{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    padding: 8px 10px;
+    background: rgb(223, 221, 221);
+    cursor: pointer;
+}
+
+.product-display-right button{
+    margin: 10px 0px;
+    background: rgb(255, 110, 53);
+    font-size: large;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    width: 40%;
+    /* display: flex; */
+    cursor: pointer;
+}
+
+.product-display-description {
+    text-align: justify;
+}
+
+

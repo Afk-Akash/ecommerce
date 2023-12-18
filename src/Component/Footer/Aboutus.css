@@ -1,0 +1,12 @@
+.main-container{
+    margin: 100px 200px;
+    border: .5px solid black;
+    background: rgb(241, 240, 240);
+}
+
+.main-container p{
+    margin: 10px;;
+    text-align: justify;
+    font-size: 18px;
+}
+
